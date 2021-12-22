@@ -1,0 +1,152 @@
+﻿<repository
+id="67df06ab-3126-4642-a75d-8bc4b4cd0726"
+name="WebTestRepository">
+	<codegen
+	classname="WebTestRepository"
+	namespace="WebTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="445a972b-89a7-4bbc-ba73-52bab36f115a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="93976a88-5b76-41a8-aaf7-d62960a58140"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="270b7e53-22bc-4ee1-a3d6-6bed6acf41b7"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="e8aa1095-775e-421a-a924-edbc53e040cb"
+			name="SearchDropdownBox"
+			refimgid="f11c4fc9-b523-48f9-8b2e-b95f4aa6a51d"
+			refpath="/dom[@domain='www.amazon.com']//select[#'searchDropdownBox']"
+			robustPath="/dom[@domain='www.amazon.com']//select[#'searchDropdownBox']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//select[#'searchDropdownBox']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="118f677f-9587-445b-81db-a07881a6770f"
+			name="NavSearchSubmitButton"
+			refimgid="574cd969-dda9-4aa1-b359-7cca4a0eb261"
+			refpath="/dom[@domain='www.amazon.com']//input[#'nav-search-submit-button']"
+			robustPath="/dom[@domain='www.amazon.com']//input[#'nav-search-submit-button']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//input[#'nav-search-submit-button']
+			</item>
+			<basepath>
+				/dom[@domain='www.amazon.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e283a8d7-129c-424b-ab91-7fc27675d33b"
+		isrooted="True"
+		name="OnlineShoppingSiteInIndiaShopOnli"
+		refpath="/dom[@domain='www.amazon.in']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="14a296a3-d090-4e7e-a7a1-8eb7ec5c6b58"
+			name="NavLogoSprites"
+			refimgid="905d7551-1c7e-4dbf-9e27-46d0ed232b33"
+			refpath="/dom[@domain='www.amazon.in']//a[#'nav-logo-sprites']"
+			robustPath="/dom[@domain='www.amazon.in']//a[#'nav-logo-sprites']"
+			searchtimeout="30000ms">
+				<image
+				guid="b190e0d1-d987-4f50-b667-8ed89196f4b0"
+				name="Screenshot1">
+					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
+				</image>
+				/dom[@domain='www.amazon.in']//a[#'nav-logo-sprites']
+			</item>
+			<basepath>
+				/dom[@domain='www.amazon.in']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
